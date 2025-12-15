@@ -8,7 +8,7 @@
 * use `make` to test and build the documentation
 * when executing tests, use the following commands to run in a isolated environment:
 
-    make test-pure-on FISH_VERSION=(fish --version | string match --regex '(?:\\d+.?){3}') CMD="fishtape <files-to-test>"
+    make test-project-on FISH_VERSION=(fish --version | string match --regex '(?:\\d+.?){3}') CMD="fishtape <files-to-test>"
 
 ## Code style
 
