@@ -1,4 +1,11 @@
-# the_fuck.fish
+# the_fuck.fish [![ci-status]][ci-link] [![sponsors]][sponsor-link] [![MIT-img]][MIT]
+
+[ci-link]: <https://github.com/edouard-lopez/the_fuck.fish/actions> "Github CI"
+[ci-status]: https://img.shields.io/github/actions/workflow/status/edouard-lopez/the_fuck.fish/.github/workflows/ci.yml?style=flat-square
+[sponsors]: https://img.shields.io/github/sponsors/edouard-lopez?label=💖&style=flat-square "GitHub Sponsors"
+[sponsor-link]: https://github.com/sponsors/edouard-lopez/ "Become a sponsor"
+[MIT]: LICENSE.md "MIT License"
+[MIT-img]: https://img.shields.io/badge/license-MIT-blue.svg
 
 > Automatically correct the last command using [thefuck](https://github.com/nvbn/thefuck).
 
