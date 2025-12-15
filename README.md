@@ -11,6 +11,13 @@
 >
 > :bomb: This is a quick experimentation
 
+<div align="center">
+
+![preview (light mode)](preview-light.png)
+![preview (dark mode)](preview-dark.png)
+
+</div>
+
 ## Installation
 
 ```fish
