@@ -1,5 +1,4 @@
 source functions/the_fuck.fish
-# source conf.d/the_fuck.fish
 
 @test "the_fuck function is defined" (
     functions -q the_fuck
@@ -22,7 +21,7 @@ source functions/the_fuck.fish
 @test "the_fuck runs when THE_FUCK_ENABLED is 1" (
     function thefuck; echo "echo called"; end
     set THE_FUCK_ENABLED 1
-    
+
     false
     the_fuck "ls"
 ) = "called"
