@@ -1,0 +1,1 @@
+set --global THE_FUCK_ENABLED 1
