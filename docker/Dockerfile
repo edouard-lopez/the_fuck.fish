@@ -28,7 +28,7 @@ RUN echo '%wheel ALL=(ALL) ALL' > /etc/sudoers.d/wheel \
     && echo "nemo:123" | sudo chpasswd
 USER nemo
 
-# create an image with smart-lock's source code for testing (lightweight)
+# create an image with project's source code for testing (lightweight)
 FROM only-fish AS with-project-installed 
 USER root
 RUN chmod -R 777 /home/nemo
