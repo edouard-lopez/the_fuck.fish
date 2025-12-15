@@ -8,6 +8,8 @@
 [MIT-img]: https://img.shields.io/badge/license-MIT-blue.svg
 
 > Automatically correct the last command using [thefuck](https://github.com/nvbn/thefuck).
+>
+> :bomb: This is a quick experimentation
 
 ## Installation
 
@@ -17,7 +19,7 @@ fisher install edouard-lopez/the_fuck.fish
 
 ## Usage
 
-This plugin automatically triggers when a command fails (returns a non-zero exit status). It attempts to correct the command using [`thefuck`](https://github.com/nvbn/thefuck).
+This plugin automatically triggers **when a command fails** (returns a non-zero exit status). It attempts to correct the command using [`thefuck`](https://github.com/nvbn/thefuck).
 
 ### Disabling it
 
