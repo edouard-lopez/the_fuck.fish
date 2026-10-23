@@ -10,5 +10,6 @@ function the_fuck --on-event fish_postexec \
 
     if test $last_status -ne 0
         eval (thefuck $_commandline)
+        true # avoid repeating suggestion, cf. https://github.com/edouard-lopez/the_fuck.fish/issues/1
     end
 end
